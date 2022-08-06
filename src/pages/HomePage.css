@@ -20,7 +20,7 @@
     grid-template-columns: repeat(4,1fr);
     
     border-radius: 5px;
-    background-image: url('https://everything-pr.com/wp-content/uploads/2021/08/ecommerce.jpg');
+    /* background-image: url('https://everything-pr.com/wp-content/uploads/2021/08/ecommerce.jpg'); */
 }
 
 .card > p {

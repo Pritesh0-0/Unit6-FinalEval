@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+ 
+      
+    
+}
+
+.container > table > thead {
+    margin-left: 10px;
+}
+
+.col {
+    column-gap: 100px;
+}
