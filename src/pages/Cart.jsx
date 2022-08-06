@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
  import "./HomePage.css"
  import { useNavigate} from "react-router-dom";
- import './cart.css'
+
 
  const Cart = () => {
  const [data,setData]=useState([])
