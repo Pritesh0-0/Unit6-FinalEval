@@ -1,0 +1,14 @@
+.card{
+    border: 1px solid red;
+    width: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-radius: 10px solid red;
+}
+
+/* .card : :hover {
+
+} */
