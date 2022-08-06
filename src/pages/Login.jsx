@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useContext, useState } from 'react'
 import { Navigate } from "react-router-dom";
+import "./login.css"
 
 import {AuthContext} from "../context/AuthContext"
 const Login = () => {
@@ -23,10 +24,10 @@ const haddnleLogin=()=>{
   }
 
   return (
-    <div>
-      <input type="text" name="" id="" value={email} placeholder='Email Address goes here' onChange={(e)=>setEmail(e.target.value)}/>
-      <input type="text" name="" id="" value={password} placeholder='Password goes here' onChange={(e)=>setPassword(e.target.value)}/>
-      <button onClick={haddnleLogin}>login</button>
+    <div className='input'>
+      <input type="text" name="" className='email' id="" value={email} placeholder='Email Address goes here' onChange={(e)=>setEmail(e.target.value)}/>
+      <input type="text" name="" id="" className='password' value={password} placeholder='Password goes here' onChange={(e)=>setPassword(e.target.value)}/>
+      <button onClick={haddnleLogin}>Login</button>
     </div>
   )
 }
