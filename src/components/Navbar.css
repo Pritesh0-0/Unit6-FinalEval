@@ -1,5 +1,16 @@
-.nav{
-    padding: 10px;
-    margin: 20px;
+.navbar {
+    display: flex;
+    height: 100px;
+    background-color: aqua;
+}
+
+.buts {
+    margin: auto;
+    font-size: 30px;
+
+}
+
+.buts:hover {
     color: red;
+    cursor: grab;
 }

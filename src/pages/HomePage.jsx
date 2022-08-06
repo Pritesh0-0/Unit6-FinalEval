@@ -55,11 +55,11 @@ fetch('http://localhost:8080/cart', {
         data.map((res)=>{
           return(<>
           <div className='card'>
-            <p>{res.brand}</p> 
+            <p className='brand'>{res.brand}</p> 
             <p>{res.title}</p> 
             <p>{res.category}</p> 
-            <p>{res.price}</p>
-            <img src={res.image} alt="" /> 
+            <p>Price: {res.price} ₹</p>
+            <img src={res.image} alt="" className='img'/> 
              <button onClick={()=>Details(res.id)}>Details</button>
              <button onClick={()=>AddToCart(res)}>Add To Cart</button>
           </div>
